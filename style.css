@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+}
+/* .......................header..................... */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+  height: 80px;
+}
+.brand{
+  font-size: 28px;
+  color: #DDA0DD;
+  text-transform: uppercase;
+}
+.nav-list{
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center; 
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.nav-link{
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.nav-link:hover{
+  color:#FFA07A;
+}
+
+.btn-mobile-nav{
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav{
+  height: 32px;
+  width: 32px;
+  color: #f6a338;
+}
+
+.icon-mobile-nav[name="close-outline"]{
+  display: none; 
+}
+/* .................section-main.................... */
+
+.section-main{
+  padding: 32px 8%;
+}
+
+.container{
+  margin-top: 24px;
+  align-items: center;
+  /* justify-content: center; */
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 78px;
+}
+.primary-heading{
+  /* margin-bottom: 24px; */
+  font-weight: 500;
+}
+.btn,
+.btn-get,
+.btn-cv{
+  margin-top: 24px;
+  padding: 10px;
+  background-color:rgb(66, 150, 246);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-get:hover,
+.btn-cv:hover{
+  background-color: black;
+}
+.margin-rsm{
+  margin-right: 6px;
+}
+button,.btn-link{
+  font-family: inherit;
+  font-weight: 500;
+  color: white;
+}
+span{
+  font-size: 28px;
+  color: #DDA0DD;
+  font-weight: 600;
+}
+.dev-img{
+  width: 100%;
+  height: 65vh;
+}
+.social-media{
+  margin-top: 24px;
+  padding-top: 24px ;
+  display: flex;
+  gap: 18px;
+}
+.icon{
+  margin-top: 4px;
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+.icon-link{
+  padding: 6px 8px;
+}
+.icon-link:hover{
+  background-color: rgb(66, 150, 246);
+  border-radius: 50%;
+  border: none;
+}
+
+/* ..................section-projects................... */
+.section-projects{
+  padding: 82px 8%;
+}
+.container-project{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
+.heading-secondary{
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(66,150,246);
+  text-align: center;
+}
+.project-1{
+  margin-top: 24px;
+  border-radius: 4px;
+}
+/* .project-1:hover{
+  background-color: rgb(177, 244, 237);
+  color: black;
+} */
+.pro-description{
+  margin-top: 12px;
+  font-size: 16px;
+}
+.btn-vc:hover,
+.btn-vd:hover,
+.btn-submit:hover{
+  background-color: black;
+}
+
+/* ...................section-about.......... */
+
+.section-about{
+  padding: 32px 8%;
+}
+
+.container-about{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 32px;
+}
+
+.about-me-description{
+  margin-top: 28px;
+  font-size: 12px;
+}
+
+.abt-img{
+  margin-top: 32px;
+  width: 100%;
+  height: 80vh;
+}
+.que,
+.skills{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 14px;
+  color: #FFA07A;
+}
+
+
+/* ....................section-about............. */
+.section-contact{
+  padding: 32px 8%;
+}
+
+.container-contact{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 48px;
+  /* align-items: center; */
+}
+
+.form-cnt{
+  display: flex;
+  margin-top: 32px;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+}
+label{
+  font-size: 16px;
+  font-weight: 500;
+}
+input{
+  padding: 6px 8px;
+  width: 70%;
+  font-family: inherit;
+  font-size: 14px;
+}
+#msg{
+  width: 70%;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 14px;
+}
+.btn-submit{
+  margin-top: 18px;
+  width: 88px;
+  height: auto;
+  font-weight: 500;
+}
+.ct-img{
+  width: 80%;
+  height: 65vh;
+}
+
+
+/* ..............footer-section........... */
+.footer{
+  padding: 48px 8%;
+  font-size: 14px;
+  border-top: 1px solid rgb(146, 145, 145);
+}
+.footer-cnt{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 32px;
+  align-items: center;
+}
+.nav-list-footer{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.social-media-links{
+  margin-left: -8px;
+}
+
+.fic-mail{
+  color: azure;
+}
+.fic-mail:hover{
+  color: rgb(66, 150, 246);
+}
+.ict{
+  width: 18px;
+  height: 18px;
+}

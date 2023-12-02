@@ -1,0 +1,721 @@
+
+@media(max-width:920px){
+  .primary-heading{
+    font-size: medium;
+    font-weight: 400;
+  }
+  span{
+    font-size: 24px;
+  }
+  .project-1{
+    font-size: 16px;
+  }
+  .pro-description{
+    font-size: 14px;
+  }
+
+  .about-me-description{
+    margin-top: 24px;
+    font-size: 10px;
+  }
+  img,.abt-img{
+    height: 90vh;  
+  }
+}
+
+@media(max-width:600px),
+(max-width:586px){
+  .header{
+    padding: 12px;
+  }
+  .brand{
+    font-size: 24px;
+  }
+  .nav-list{
+    gap: 24px;
+  }
+  .nav-link{
+    font-size: 16px;
+  }
+
+  .section-main{
+    padding: 28px 8%;
+  }
+  .grid{
+    gap: 60px;
+  }
+  .dev-img{
+    width: 90%;
+    height: 60vh;
+  }
+  .primary-heading{
+    font-size: small;
+  }
+  span{
+    font-size: 20px;
+  }
+  .btn,
+  .btn-get,
+  .btn-cv{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 6px;
+  }
+  button,.btn-link{
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .social-media{
+    margin-top: 8px;
+    padding-top: 10px;
+    gap: 12px;
+  }
+  .icon{
+    width: 18px;
+    height: 18px;
+  }
+
+  .section-projects{
+    padding: 64px 8%;
+  }
+  .container-project{
+    gap: 28px;
+  }
+  .heading-secondary{
+    font-size: 18px;
+  }
+  .project-1{
+    margin-top: 20px;
+  }
+  h3{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .pro-description{
+    margin-top: 10px;
+    font-size: 10px;
+  }
+
+  .section-about{
+    padding: 30px 8%;
+  }
+  .container-about{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .about-me-description{
+    font-size: 10px;
+  }
+  .que,
+  .skills{
+    font-size: 10px;
+  }
+
+  .section-contact{
+    padding: 36px 8%;
+  }
+  .container-contact{
+    gap: 36px;
+  }
+  .form-cnt{
+    margin-top: 30px;
+    gap: 12px;
+  }
+  label{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  input{
+    padding: 4px 6px;
+    width: 60%;
+    font-size: 12px;
+  }
+  #msg{
+    width: 60%;
+    padding: 8px;
+    font-size: 12px;
+  }
+  .btn-submit{
+    margin-top: 16px;
+    width: 70px;
+    font-weight: 400;
+  }
+  .cta-img{
+    margin-top: 12px;
+    width: 100%;
+    height: 70vh;
+  }
+  footer{
+    padding: 32px 8%;
+    /* font-size: 10px; */
+  }
+  .nav-list-footer{
+    /* flex-direction: ; */
+    gap: 10px;
+  }
+  .footer-cnt{
+    font-size: 10px;
+    align-items: flex-start;
+  }
+}
+
+@media(max-width:504px){
+  .header{
+    padding: 10px;
+  }
+  .brand{
+    font-size: 24px;
+  }
+  .nav-list{
+    gap: 20px;
+  }
+  .nav-link{
+    font-size: 10px;
+  }
+  .btn-mobile-nav{
+    display: block;
+    z-index: 9999;
+  }
+  .main-nav{
+    background-color:black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav{
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"]{
+    display: block; 
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"]{
+    display: none; 
+  }
+
+  .nav-list{
+    flex-direction: column;
+    gap: 32px;
+  }
+  .nav-link{
+    font-size: 18px;
+  }
+  .section-main{
+    padding: 26px 8%;
+  }
+  .grid{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .dev-img{
+    width: 100%;
+    height: 60vh;
+  }
+  .primary-heading{
+    font-size: small;
+  }
+  span{
+    font-size: 18px;
+  }
+  .btn,
+  .btn-get,
+  .btn-cv{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 6px;
+  }
+  button,.btn-link{
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .social-media{
+    margin-top: 8px;
+    padding-top: 10px;
+    gap: 12px;
+  }
+  .icon{
+    width: 18px;
+    height: 18px;
+  }
+
+  .section-projects{
+    padding: 52px 8%;
+  }
+  .container-project{
+    gap: 24px;
+  }
+  .heading-secondary{
+    font-size: 16px;
+  }
+  .project-1{
+    margin-top: 18px;
+  }
+  h3{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .pro-description{
+    margin-top: 10px;
+    font-size: 8px;
+  }
+
+  .section-about{
+    padding: 30px 8%;
+  }
+  .container-about{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .abt-img{
+    height: 82vh;
+    width: 65%;
+    margin-left: -200px;
+  }
+  .about-me-description{
+    font-size: 10px;
+  }
+  .que,
+  .skills{
+    font-size: 10px;
+  }
+
+  .section-contact{
+    padding: 30px 8%;
+  }
+  .container-contact{
+    gap: 30px;
+  }
+  .form-cnt{
+    margin-top: 30px;
+    gap: 12px;
+  }
+  label{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  input{
+    padding: 3px 5px;
+    width: 60%;
+    font-size: 10px;
+  }
+  #msg{
+    width: 60%;
+    padding: 8px;
+    font-size: 12px;
+  }
+  .btn-submit{
+    margin-top: 16px;
+    width: 70px;
+    font-weight: 400;
+  }
+  .cta-img{
+    margin-top: 12px;
+    width: 100%;
+    height: 70vh;
+  }
+  footer{
+    padding: 32px 8%;
+    /* font-size: 10px; */
+  }
+  .nav-list-footer{
+    /* flex-direction: ; */
+    gap: 10px;
+  }
+  .footer-cnt{
+    font-size: 10px;
+    align-items: flex-start;
+  }
+}
+
+
+@media(max-width:380px){
+  .header{
+    padding: 8px;
+  }
+  .brand{
+    font-size: 22px;
+  }
+  .mob-cn{
+    margin-left: 84px;
+  }
+  .nav-list{
+    gap: 14px;
+  }
+  .nav-link{
+    font-size: 8px;
+  }
+  .btn-mobile-nav{
+    display: block;
+    z-index: 9999;
+  }
+  .main-nav{
+    background-color:black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav{
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"]{
+    display: block; 
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"]{
+    display: none; 
+  }
+
+  .nav-list{
+    flex-direction: column;
+    gap: 26px;
+  }
+  .nav-link{
+    font-size: 16px;
+  }
+  .section-main{
+    padding: 24px 8%;
+  }
+  .grid{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .dev-img{
+    width: 100%;
+    height: 50vh;
+  }
+  .primary-heading{
+    font-size: small;
+  }
+  span{
+    font-size: 16px;
+  }
+  .btn,
+  .btn-get,
+  .btn-cv{
+    margin-top: 18px;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  button,.btn-link{
+    font-weight: 400;
+    font-size: 10px;
+  }
+  .social-media{
+    margin-top: 6px;
+    padding-top: 8px;
+    gap: 10px;
+  }
+  .icon{
+    width: 14px;
+    height: 14px;
+  }
+
+  .section-projects{
+    padding: 42px 8%;
+  }
+  .container-project{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .heading-secondary{
+    font-size: 14px;
+  }
+  .project-1{
+    margin-top: 16px;
+  }
+  h3{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .pro-description{
+    margin-top: 8px;
+    font-size: 8px;
+  }
+
+  .section-about{
+    padding: 28px 8%;
+  }
+  .container-about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .abt-img{
+    height: 82vh;
+  }
+  .about-me-description{
+    font-size: 10px;
+  }
+  .que,
+  .skills{
+    font-size: 10px;
+  }
+
+  .section-contact{
+    padding: 30px 8%;
+  }
+  .container-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .form-cnt{
+    margin-top: 24px;
+    gap: 10px;
+  }
+  label{
+    font-size: 10px;
+    font-weight: 400;
+  }
+  input{
+    padding: 3px 5px;
+    width: 65%;
+    font-size: 10px;
+  }
+  #msg{
+    width: 65%;
+    padding: 8px;
+    font-size: 10px;
+  }
+  .btn-submit{
+    margin-top: 14px;
+    width: 70px;
+    font-weight: 400;
+  }
+  .cta-img{
+    margin-top: 10px;
+    width: 100%;
+    height: 55vh;
+  }
+  footer{
+    padding: 18px 8%;
+    /* font-size: 10px; */
+  }
+  .nav-list-footer{
+    /* flex-direction: ; */
+    gap: 6px;
+  }
+  .footer-cnt{
+    font-size: 8px;
+    align-items: flex-start;
+  }
+  .social-media-links{
+    display: flex;
+  }
+}
+
+
+@media(max-width:345px){
+  .header{
+    padding: 6px;
+  }
+  .brand{
+    font-size: 20px;
+  }
+  .mob-cn{
+    margin-left: 68px;
+  }
+  .nav-list{
+    gap: 6px;
+  }
+  .nav-link{
+    font-size: 8px;
+  }
+  .btn-mobile-nav{
+    display: block;
+  }
+  .main-nav{
+    background-color:black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav{
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"]{
+    display: block; 
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"]{
+    display: none; 
+  }
+
+  .nav-list{
+    flex-direction: column;
+    gap: 12px;
+  }
+  .nav-link{
+    font-size: 14px;
+  }
+  .section-main{
+    padding: 24px 5%;
+  }
+  .grid{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+  }
+  .dev-img{
+    width: 100%;
+    height: 55vh;
+  }
+  .primary-heading{
+    font-size: small;
+  }
+  span{
+    font-size: 16px;
+  }
+  .btn,
+  .btn-get,
+  .btn-cv{
+    margin-top: 18px;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  button,.btn-link{
+    font-weight: 400;
+    font-size: 10px;
+  }
+  .social-media{
+    margin-top: 4px;
+    padding-top: 4px;
+    gap: 8px;
+  }
+  .icon{
+    width: 14px;
+    height: 14px;
+  }
+
+  .section-projects{
+    padding: 32px 5%;
+  }
+  .container-project{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .heading-secondary{
+    font-size: 12px;
+  }
+  .project-1{
+    margin-top: 14px;
+  }
+  h3{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .pro-description{
+    margin-top: 8px;
+    font-size: 8px;
+  }
+
+  .section-about{
+    padding: 24px 5%;
+  }
+  .container-about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .abt-img{
+    height: 80vh;
+  }
+  .about-me-description{
+    font-size: 10px;
+  }
+  .que,
+  .skills{
+    font-size: 10px;
+  }
+
+  .section-contact{
+    padding: 38px 5%;
+  }
+  .container-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .form-cnt{
+    margin-top: 24px;
+    gap: 10px;
+  }
+  label{
+    font-size: 10px;
+    font-weight: 400;
+  }
+  input{
+    padding: 3px 5px;
+    width: 65%;
+    font-size: 10px;
+  }
+  #msg{
+    width: 65%;
+    padding: 8px;
+    font-size: 10px;
+  }
+  .btn-submit{
+    margin-top: 14px;
+    width: 70px;
+    font-weight: 400;
+  }
+  .cta-img{
+    margin-top: 10px;
+    width: 100%;
+    height: 55vh;
+  }
+  footer{
+    padding: 16px 5%;
+    /* font-size: 10px; */
+  }
+  .nav-list-footer{
+    /* flex-direction: ; */
+    gap: 6px;
+  }
+  .footer-cnt{
+    font-size: 8px;
+    align-items: flex-start;
+  }
+  .social-media-links{
+    display: flex;
+  }
+}
