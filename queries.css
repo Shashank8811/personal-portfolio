@@ -186,7 +186,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     transition: all 0.5s;
     /* display: none; */
     opacity: 0;
@@ -255,6 +255,8 @@
     padding: 52px 8%;
   }
   .container-project{
+    display: flex;
+    flex-direction: column;
     gap: 24px;
   }
   .heading-secondary{
@@ -301,6 +303,8 @@
     padding: 30px 8%;
   }
   .container-contact{
+    display: flex;
+    flex-direction: column;
     gap: 30px;
   }
   .form-cnt{
